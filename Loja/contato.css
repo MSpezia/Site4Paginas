@@ -1,0 +1,72 @@
+.header{
+    background-color: blueviolet;
+    border: 1px solid black;
+    max-width: 100%;
+    height:fit-content;
+    display: flex;
+    align-items: center;
+}
+.headerContent{
+    margin-right: 5px;
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+.logoSize{
+    height:50px;
+}
+.linkMargin{
+    margin-right: 10px;
+}
+nav{
+    display: inline;
+    font-size: 40px;
+}
+body{
+    padding:0;
+    margin:0;
+}
+h1{
+    margin-left: 60px;
+    margin-top: 60px;
+    font-size:50px;
+}
+.container{
+    margin-top: 10px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%,0%);
+    transform: translate(-50%,0%);
+    display: block;
+    width: 50%;
+    height: 70%;
+    justify-content: center;
+    font-size: 30px;
+}
+label{
+    display: block;
+    margin-top: 5px;
+}
+.dados{
+    display: inline-block;
+    width: 48.611%;
+}
+input{
+    width: 100%;
+    height:25px;
+}
+button{
+    justify-content: right;
+}
+textarea{
+    width: 100%;
+}
+.botao{
+    text-align: end;
+}
+.marginDados{
+    margin-left: 2%;
+}
+.marginMensagem{
+    margin-bottom: 7px;
+}

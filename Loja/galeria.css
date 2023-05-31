@@ -1,0 +1,63 @@
+.header{
+    background-color: blueviolet;
+    border: 1px solid black;
+    max-width: 100%;
+    height:fit-content;
+    display: flex;
+    align-items: center;
+}
+.headerContent{
+    margin-right: 5px;
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+.logoSize{
+    height:50px;
+}
+.linkMargin{
+    margin-right: 10px;
+}
+nav{
+    display: inline;
+    font-size: 40px;
+}
+body{
+    padding:0;
+    margin:0;
+}
+.container{
+    margin-top: 10px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%,0%);
+    transform: translate(-50%,0%);
+    width: 95%;
+    height: 85%;
+    display: flexbox;
+}
+.cell{
+    width: 33%;
+    height: 50%;
+    display: inline-block;
+    margin-bottom: 0.3%;
+    border: 1px solid black;
+}
+.imagem{
+    margin-top: 5px;
+    width: 70%;
+    height: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.texto{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+img{
+
+    height:100%;
+}
